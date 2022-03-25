@@ -1,0 +1,18 @@
+{
+  "sites": 
+  {
+  "饭后电影":{"url":"http://baicai.summ.vip/api.php/v1.vod"},
+  "康耀影视":{"url":"http://124.222.126.23:999/mogai_api.php/v1.vod"},
+  "虎猫视频":{"url":"https://humaosp.com/mogai_api.php/v1.vod"},
+  "段友影视":{"url":"http://121.204.249.135:4433/ruifenglb_api.php/v1.vod"},
+  "独播社":{"url":"http://35ys.cc/api.php/v1.vod"},
+  "叮当影视":{"url":"https://tv.0573wl.com/api.php/v1.vod"},
+  "初心影视":{"url":"https://www.18mv.club/api.php/v1.vod"},
+  "300看世界":{"url":"https://300ys.xyz/api.php/v1.vod"},  
+  "爱看美剧":{"url":"https://www.uumjw.com/api.php/v1.vod"},
+  "嘀哩嘀哩":{"url": "http://dilidili.la/api.php/app/"},
+  "躺平影视":{"url": "http://www.lltpys.com/api.php/app/"},
+  "手指影视":{"url":"https://szys5678.com/mogai_api.php/v1.vod"}
+  },
+  "jx": []
+}
