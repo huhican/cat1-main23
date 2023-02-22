@@ -1,0 +1,86 @@
+{  
+	"author": "",
+	"ua": "",
+	"homeUrl": "http://www.xi1.net",
+	"dcVipFlag": "true",
+ 	"pCfgJs": "http://www.xi1.net/static/js/playerconfig.js",
+ 	"pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
+ 	"dcShow2Vip": {},
+ 	"dcPlayUrl": "true",
+	
+	
+	"cateNode": "//ul[@class='hl-nav hl-text-site swiper-wrapper clearfix']/li/a[contains(@href, 'tvtype')]",
+	"cateName": "/text()", 
+	"cateId": "/@href",
+	"cateIdR": "/tvtype(\\S+).html",
+	"cateManual": {
+		"电影": "FilmX",
+		"连续剧": "TVshowX",
+		"综艺": "VarietyX",
+		"动漫": "AnimeX"
+       	},
+	
+	"homeVodNode": "//ul[@class='hl-vod-list swiper-wrapper clearfix']/li" ,
+	"homeVodName": "/a/@title",
+	"homeVodId": "/a/@href",
+	"homeVodIdR": "",
+	"homeVodImg": "/a/@data-original",
+	"homeVodImgR": "",
+	"homeVodMark": "/a/div[3]/span/text()",
+	
+	
+	"cateUrl": "http://www.xi1.net/tvshow/{cateId}XXXXXXX{catePg}XXX.html",
+	"cateVodNode": "//div[@class='hl-list-wrap hl-wide-wrap']/ul[1]/li",
+	"cateVodName": "/a/@title",
+	"cateVodId": "/a/@href",
+	"cateVodIdR": "/tvdetail(\\S+).html",
+	"cateVodImg": "/a/@data-original",
+	"cateVodImgR": "\\S+(http\\S+)",
+	"cateVodMark": "/a/div[3]/span/text()",
+	
+	"dtUrl": "http://www.xi1.net/tvdetail/{vid}.html",
+	"dtNode": "//div[@class='hl-detail-content hl-marg-right50 clearfix']",
+	"dtName": "/div[2]/div/h1/text()",
+	"dtNameR": "",
+	"dtImg": "/div[1]/span/@data-original",
+	"dtImgR": "\\S+(http\\S+)",
+	"dtCate": "",
+	"dtCateR": "",
+	"dtYear": "",
+	"dtYearR": "",
+	"dtArea": "",
+	"dtAreaR": "",
+	"dtMark": "",
+	"dtMarkR": "",
+	"dtActor": "",
+	"dtActorR": "",
+	"dtDirector": "",
+	"dtDirectorR": "",
+	"dtDesc": "",
+	"dtDescR": "",
+	
+	"dtFromNode": "//div[@class='hl-plays-from hl-tabs swiper-wrapper clearfix']/a",
+	"dtFromName": "/text()",
+	"dtFromNameR": "",  
+	
+	
+	
+	"dtUrlNode": "//ul[@class='hl-plays-list hl-sort-list clearfix']",
+	"dtUrlSubNode": "/li/a",
+	"dtUrlId": "/@href",
+	"dtUrlIdR": "/xi1play/(\\S+).html",
+	"dtUrlName": "/text()",
+	"dtUrlNameR": "",
+	
+	
+	"playUrl": "http://www.xi1.net/xi1play/{playUrl}.html",
+	"playUa": "",
+	
+	"searchUrl": "http://www.xi1.net/tvsearch/XXXXXXXXXXXXX.html?wd={wd}",
+	"scVodNode": "//ul[@class='hl-one-list hl-theme-by362695000 clearfix']/li",
+	"scVodName": "/div/div/div[1]/a/@title",
+	"scVodId": "/div/div/div[1]/a/@href",
+	"scVodIdR": "",
+	"scVodImg": "/div/div/div[1]/a/@data-original",
+	"scVodMark": ""
+}
